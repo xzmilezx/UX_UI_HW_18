@@ -140,7 +140,7 @@ div.wrapper {
 .inline-block {
   display: inline-block;
   vertical-align: middle;
-  padding: 10px;
+  padding:10px;
 }
 
 .footerBlock {
@@ -148,14 +148,6 @@ div.wrapper {
   right: 5%;
   bottom: 0%;
   z-index: 120;
-}
-
-.footerList {
-  display: flex;
-}
-
-.emailBtn {
-  margin-top: 24px;
 }
 
 button.glowBtn {
@@ -177,9 +169,7 @@ button.glowBtn {
   
     display: block;
   }
-  .footerList {
-    flex-direction: column-reverse;
-  }
+
 
   .footerBlock {
 left:25%;
