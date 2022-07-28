@@ -95,7 +95,7 @@ nav.inline-block {
 }
 
 /* Content */
-p.aboutMe {
+p {
   position: relative;
 
   font-family: 'Yusei Magic';
@@ -178,7 +178,7 @@ button.glowBtn {
   margin-bottom: 100px;
   padding-bottom: 100px;
   position: relative;
-  top: 100px;
+  bottom: 1200px;
   /* z-index: 40;  */
 }
 
@@ -201,4 +201,27 @@ button.glowBtn {
     /* justify-content: center; */
   }
 }
+/* 
+.dot:hover {
+  color: white;
+  transform: scale(1.2);
+  background-color: #fff;
+  border: 2px solid red;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
 
+.dotClicked {
+  color: white;
+  transform: scale(1.2);
+  background-color: #fff;
+  border: 1px solid red;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin: 0;
+  padding: 0;
+} */
