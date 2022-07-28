@@ -29,11 +29,7 @@ body {
 }
 
 ul {
-  /* list-style-type: none;
-    margin: 0;
-    padding: 0; */
-  /* width: 73%%; */
-  /* margin-left:auto; */
+margin-bottom: 0%;
   padding: 0;
   text-align: center;
 }
@@ -148,6 +144,7 @@ div.wrapper {
   right: 5%;
   bottom: 0%;
   z-index: 120;
+  margin-bottom: 0%;
 }
 
 button.glowBtn {
@@ -169,10 +166,7 @@ button.glowBtn {
   
     display: block;
   }
-
-
   .footerBlock {
-left:25%;
-right:25%;
+/* justify-content: center; */
   }
 }
