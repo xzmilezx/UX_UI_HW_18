@@ -16,9 +16,10 @@
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/myArt.css" rel="stylesheet" type="text/css">
 
+    <script src="javascript/myArt.js" > </script>
 </head>
 
-<body>
+<body onload="loadImage()">
 
     <header class="navigation">
         <div>
@@ -51,15 +52,15 @@
 
             <div class="dots">
                 <ul>
-                    <li class="dot"> <img id="dot1" src="images/dotDefault.svg"></li>
-                    <li class="dot"> <img id="dot2" src="images/dotDefault.svg"></li>
-                    <li class="dot"> <img id="dot3" src="images/dotDefault.svg"></li>
-                    <li class="dot"> <img id="dot4" src="images/dotDefault.svg"></li>
-                    <li class="dot"> <img id="dot5" src="images/dotDefault.svg"></li>
-                    <li class="dot"> <img id="dot6" src="images/dotDefault.svg"></li>
-                    <li class="dot"> <img id="dot7" src="images/dotDefault.svg"></li>
-                    <li class="dot"> <img id="dot8" src="images/dotDefault.svg"></li>
-                    <li class="dot"> <img id="dot9" src="images/dotDefault.svg"></li>
+                    <li class="dot"> <img id="dot1" src="images/dotDefault.svg" onclick="loadImage(0)"></li>
+                    <li class="dot"> <img id="dot2" src="images/dotDefault.svg" onclick="loadImage(1)"></li>
+                    <li class="dot"> <img id="dot3" src="images/dotDefault.svg" onclick="loadImage(2)"></li>
+                    <li class="dot"> <img id="dot4" src="images/dotDefault.svg" onclick="loadImage(3)"></li>
+                    <li class="dot"> <img id="dot5" src="images/dotDefault.svg" onclick="loadImage(4)"></li>
+                    <li class="dot"> <img id="dot6" src="images/dotDefault.svg" onclick="loadImage(5)"></li>
+                    <li class="dot"> <img id="dot7" src="images/dotDefault.svg" onclick="loadImage(6)"></li>
+                    <li class="dot"> <img id="dot8" src="images/dotDefault.svg" onclick="loadImage(7)"></li>
+                    <li class="dot"> <img id="dot9" src="images/dotDefault.svg" onclick="loadImage(8)"></li>
 
                 </ul>
             </div>
@@ -68,23 +69,20 @@
 
         <div class="navArrows">
             <ul>
-                <li class="arrow"> <img id="lArrow" style="width:50px;" src="images/leftArrow.svg"></li>
-                <li class="arrow"> <img id="rArrow" style="width:50px;" src="images/rightArrow.svg"></li>
+                <li class="arrow"> <img id="lArrow" style="width:50px;" src="images/leftArrow.svg" onclick="back()"></li>
+                <li class="arrow"> <img id="rArrow" style="width:50px;" src="images/rightArrow.svg" onclick="next()"></li>
             </ul>
         </div>
         <div class="artCircles">
             <img style="width:550px;" src="images/artCircles.svg">
         </div>
       <div class="artWorks">
-            <img id="art1" style="width:530px;" src="images/rooted.svg"> </div>
-            <img id="art2" style="width:530px;" src="images/rooted.svg"> </div>
-            <img id="art3" style="width:530px;" src="images/rooted.svg"> </div>
-            <img id="art4" style="width:530px;" src="images/rooted.svg"> </div>
-            <img id="art5" style="width:530px;" src="images/rooted.svg"> </div>
-            <img id="art6" style="width:530px;" src="images/rooted.svg"> </div>
-            <img id="art7" style="width:530px;" src="images/rooted.svg"> </div>
-            <img id="art8" style="width:530px;" src="images/rooted.svg"> </div>
-            <img id="art9" style="width:530px;" src="images/rooted.svg"> </div>
+            <img id="art" style="width:530px;" src="images/myArt/kitty1.svg"> 
+            <p id="contentText">fadsfasdfladsf </p>
+      </div>
+      
+      <div></div>
+    
 
     </section>
 
