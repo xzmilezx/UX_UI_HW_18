@@ -3,9 +3,10 @@
     position: absolute;
     left: 3.4%;
     right: 4.17%;
-    top: 25%;
+    top:30%;
     bottom: 22.36%;
     height: max-content;
+    padding-bottom: 150px;
 }
 
 .flexChildren {
@@ -15,6 +16,7 @@
     margin: 20px;
     text-align: center;
     border: solid 3px gray;
+    background-color: #142F46;
 
 }
 
@@ -72,6 +74,10 @@ p {
 
     color: #FFFBFB;
 }
+
+#footerSpace {
+    margin:100px;
+}
 @media only screen and (max-width: 800px) {
     .flexContainer {
         flex-direction: column;
@@ -80,4 +86,5 @@ p {
     .flexChildren {
         width: auto;
     }
+
   }
