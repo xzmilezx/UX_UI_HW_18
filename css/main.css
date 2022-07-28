@@ -95,7 +95,7 @@ nav.inline-block {
 }
 
 /* Content */
-p {
+p.aboutMe {
   position: relative;
 
   font-family: 'Yusei Magic';

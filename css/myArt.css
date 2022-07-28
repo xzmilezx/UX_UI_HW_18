@@ -10,12 +10,12 @@ h1 {
     color: #FFFFFF;
 }
 
-.dot {
+/* .dot {
     text-align: center;
     display: inline-block;
     vertical-align: middle;
     padding: 15px;
-}
+} */
 
 .artCircles {
     text-align: center;
@@ -23,9 +23,11 @@ h1 {
     margin-bottom: 100px;
     padding-bottom: 100px;
     position: relative;
-    top: -110px;
+    top: -95px;
     z-index: 40;
 }
+
+
 
 .arrow {
     text-align: center;
@@ -51,11 +53,11 @@ h1 {
 .artWorks {
     text-align: center;
     position: relative;
-    top: -850px;
+    top: -830px;
     z-index: 45;
 }
 
-p1 {
+/* p1 {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 700;
@@ -67,28 +69,40 @@ p1 {
     position: relative;
     top: -850px;
     z-index: 47;
+} */
+
+.imgText {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
-.dot:hover {
-    color: white;
-    transform: scale(1.2);
-    background-color: #fff;
-    border: 2px solid red;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .dotClicked {
-    color: white;
-    transform: scale(1.2);
-    background-color: #fff;
-    border: 1px solid red;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    margin: 0;
-    padding: 0;
-  }
+div.artText {
+    width: 350px;
+    position: relative;
+    top: -145px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* .dot{
+    padding:0;
+    margin:20px;
+}
+
+.activeDot {
+    position: relative;
+    right: 38px;
+    top: 9px;
+    display: none;
+} */
+
+.show{
+    display: inline;
+}
