@@ -1,0 +1,68 @@
+
+h1 {
+    margin-top: 7%;
+    margin-bottom: 0%;
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.dot{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    padding:15px;
+  }
+.artCircles {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    top: -110px;
+    z-index: 40; 
+  }
+  .arrow{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    padding:10px;
+  }
+  #rArrow{
+    position: relative;
+    right: -245px;
+    top: 220px;
+    z-index: 50;
+  }
+  #lArrow{
+    position: relative;
+    left: -245px;
+    top: 220px;
+    z-index: 50;
+  }
+  .artWorks {
+    text-align:center;
+    position: relative;
+    top: -850px;
+    z-index: 45; 
+  }
+  p1 {
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.25px;
+color: #496004;
+position:relative;
+top: -850px;
+z-index: 47; 
+  }
+ 
+ 
+
+
