@@ -1,0 +1,64 @@
+p.p1 {
+    left: -70px;
+    top: -650px;
+  }
+  
+  p.p2 {
+    left: -75px;
+    top: -690px;
+  }
+  
+  p.p3 {
+    left: 10px;
+    top: -730px;
+  }
+  
+  p.p4 {
+    left: 35px;
+    top: -770px;
+  }
+  
+  p.p5 {
+    left: 131px;
+    top: -810px;
+  }
+  
+  h1 {
+    position: relative;
+    left: 381px;
+    top: 300px;
+  
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 14px;
+  
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+  
+    color: #FFCBF0;
+    margin: 0;
+  }
+  
+  h2 {
+    position: relative;
+    left: 312px;
+    top: 312px;
+  
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 48px;
+    /* or 75% */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FCFEFF;
+    margin: 0;
+  }
